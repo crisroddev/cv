@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #476BA0;
+}
+
+.menu-container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+ul.menu {
+    position: fixed;
+    top: 0;
+    width: 960;
+}
+.cv-container{
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 39px;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background: #406EAA;
+    max-width: 960px;
+
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.list-menu{
+    flex: 1 1 0;
+    background-color: #3863A0;
+}
+
+.item{
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    display: block;
+    padding: 10px;
+
+
+}
+
+.item:hover{
+    background-color: #4CAC7A;
+}
+
+.profile-container{
+    background-color: #FFFFFF;
+    display: flex;
+
+    width: 100%;
+
+}
+.img-container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.img-me{
+    order: 1;
+    margin: 50px;
+}
+.class-profile-container-2{
+    flex-direction: row;
+    flex-grow: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1.name-title{
+    color: #3863A0;
+    padding-top: 10px;
+}
+h3.title-phrase{
+    margin-top: 10px;
+    color: #505050;
+}
+p.ubication{
+    color: #939393;
+    margin-left: 20px;
+}
+i.fa.fa-map-marker {
+    display: inline-flex;
+}
+.extract{
+}
+
+p.extract-p{
+    margin-top: 10px;
+    color: #BCBCBC;
+    width: 91%;
+}
+
+.profile-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.profile-list-item {
+    text-decoration: none;
+    background-color: #3863A0;
+    align-content: space-around;
+    color: #FFFFFF;
+    margin: 5px 0px;
+    font-size: 13px;
+    align-items: center;
+    border-radius: 3px;
+    align-self: center;
+    width: 17%;
+    margin-right: 7px;
+    text-align: center;
+}
+
+.hire-me{
+    display: flex;
+    justify-content: center;
+    background-color: #F9FCFF;
+    border: solid;
+    border-color: #F9FCFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 1px #E2EBF5;
+}
+
+.schedule{
+    font-size: 1.17em;
+    margin-left: 20px;;
+    font-weight: bold;
+    background-color: #4FB17F;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 1px;
+    text-decoration: none;
+    border: 1px solid #1f7c57;
+    padding: 7px 11px 4px 5px;
+}
+
+.hire-text{
+    padding-top: 7px;
+}
+.availability{
+    background-color: #FFFFFF;
+    border: solid 1px #E2EBF5;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.availability-ul{
+    text-decoration: none;
+}
+
+.availability-list{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 10px;
+}
+.cv-section{
+    background-color: #FFFFFF;
+    border: solid 1px #E2EBF5;
+    display: flex;
+}
+
+.titles{
+    color: #a9a9a9;
+    font-weight: 700;
+    margin: 0 0 20px;
+    min-width: 170px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+.work{
+    display: flex;
+    width: 100%;
+}
+.work-ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+    text-decoration: none;
+}
+.work-li{
+    align-self: self-start;
+    list-style: none;
+}
+
+ul.ul-description {
+    padding-top: 10px;
+    margin-left: 30px;
+}
+
+.work-section {
+    padding-top: 10px;
+}
+p.dates {
+    font-size: 13px;
+    color: #a9a9a9;
+    padding-bottom: 7px;
+}
+
+.skills-title{
+    color: #3863A0;
+}
+h3{
+    color: #3863A0;
+}
+.li-description{
+    color: #939393;
+    font-size: 14px;
+}
+.li-description p{
+    padding: 4px;
+}
+p.skill-description {
+    color: #939393;
+}
+h3.name-skills {
+    padding-top: 15px;
+}
+
+.social{
+    width: 50px;
+    height: 50px;
+}
+
+.cv-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.work-social{
+    width: 100%;
+display: flex;
+justify-content: space-around;
+margin: 2%;
+text-decoration: none;
+}
+
+li.profile-list-item {
+    text-align: center;
+    text-align: center;
+    height: 6%;
+}
+li.profile-list-item:hover{
+    background-color: #4EAF7E;
+}
+p.skill-item{
+    padding: 10px;
+}
+ul.ul-description {
+    width: 650px;
+}
+h3.job-title {
+    padding-top: inherit;
+}
